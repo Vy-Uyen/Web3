@@ -1,0 +1,83 @@
+/* CSS Document */
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .product-image {
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-image:hover {
+            transform: scale(1.05);
+        }
+
+        .product-info {
+            max-width: 500px;
+            padding-left: 20px;
+        }
+
+        .product-info h2 {
+            font-size: 28px;
+            color: #E60012;
+            margin-bottom: 20px;
+        }
+
+        .product-info p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .product-info .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #E60012;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 30px;
+        }
+
+        .button:hover {
+            background-color: #B0000F;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
